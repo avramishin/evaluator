@@ -23,7 +23,7 @@
                         <label for="evaluationForm1Vendor">Category</label>
                     </div>
                     <div class="col-md-4">
-                        <select class="easyui-combobox form-control" id="evaluationForm1Category1" style="width: 100%">
+                        <select class="easyui-combobox" id="evaluationForm1Category1" style="width: 100%">
                             <option value="">-- Select Category --</option>
                             <option value="c1">Category 1</option>
                             <option value="c2">Category 2</option>
@@ -31,7 +31,7 @@
                         </select>
                     </div>
                     <div class="col-md-4">
-                        <select class="easyui-combobox form-control" id="evaluationForm1Category2" style="width: 100%">
+                        <select class="easyui-combobox" id="evaluationForm1Category2" style="width: 100%">
                             <option value="">-- Select Category --</option>
                             <option value="c1">Category 1</option>
                             <option value="c2">Category 2</option>
@@ -53,11 +53,13 @@
                     <div class="col-md-4 text-right">
                         <label for="evaluationForm1Costs">Costs</label>
                     </div>
-                    <div class="col">
-                        <input type="text" class="form-control" id="evaluationForm1CostsFrom" placeholder="from">
+                    <div class="col-md-4">
+                        <input type="text" class="easyui-numberbox" id="evaluationForm1CostsFrom" placeholder="from"
+                               data-options="precision:2" style="width: 100%">
                     </div>
-                    <div class="col">
-                        <input type="text" class="form-control" id="evaluationForm1CostsFrom" placeholder="to">
+                    <div class="col-md-4">
+                        <input type="text" class="easyui-numberbox" id="evaluationForm1CostsFrom" placeholder="to"
+                               data-options="precision:2" style="width: 100%">
                     </div>
                 </div>
                 <div class="form-row mb-1">
