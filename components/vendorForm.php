@@ -29,7 +29,7 @@
                 <div class="form-row mb-1">
                     <div class="col-md-6">
                         <label for="vendorFormRating">Rating</label>
-                        <select class="form-control" id="vendorFormRating">
+                        <select class="easyui-combobox" id="vendorFormRating" style="width: 100%">
                             <option value="GREEN">Green</option>
                             <option value="YELLOW">Yellow</option>
                             <option value="RED">Red</option>

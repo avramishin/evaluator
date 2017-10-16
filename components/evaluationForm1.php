@@ -10,7 +10,7 @@
                         <label for="evaluationForm1Vendor">Media name / Vendor</label>
                     </div>
                     <div class="col">
-                        <select class="form-control" id="evaluationForm1Vendor">
+                        <select class="easyui-combobox" id="evaluationForm1Vendor" style="width: 100%">
                             <option value="v1">Vendor 1</option>
                             <option value="v2">Vendor 2</option>
                             <option value="v3">Vendor 3</option>
@@ -22,16 +22,16 @@
                     <div class="col-md-4 text-right">
                         <label for="evaluationForm1Vendor">Category</label>
                     </div>
-                    <div class="col">
-                        <select class="form-control" id="evaluationForm1Category1">
+                    <div class="col-md-4">
+                        <select class="easyui-combobox form-control" id="evaluationForm1Category1" style="width: 100%">
                             <option value="">-- Select Category --</option>
                             <option value="c1">Category 1</option>
                             <option value="c2">Category 2</option>
                             <option value="c3">Category 3</option>
                         </select>
                     </div>
-                    <div class="col">
-                        <select class="form-control" id="evaluationForm1Category2">
+                    <div class="col-md-4">
+                        <select class="easyui-combobox form-control" id="evaluationForm1Category2" style="width: 100%">
                             <option value="">-- Select Category --</option>
                             <option value="c1">Category 1</option>
                             <option value="c2">Category 2</option>
@@ -41,7 +41,7 @@
                 </div>
                 <div class="form-row mb-1">
                     <div class="col-md-4 mr-auto ml-auto">
-                        <select class="form-control" id="evaluationForm1Category3">
+                        <select class="easyui-combobox" id="evaluationForm1Category3" style="width: 100%">
                             <option value="">-- Select Category --</option>
                             <option value="c1">Category 1</option>
                             <option value="c2">Category 2</option>

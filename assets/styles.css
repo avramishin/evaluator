@@ -3,3 +3,16 @@ canvas {
     -webkit-user-select: none;
     -ms-user-select: none;
 }
+
+.textbox .textbox-text {
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+}
+
+.combobox-item, .combobox-group, .combobox-stick {
+    font-size: 1rem;
+    padding: .5rem .75rem;
+    line-height: 1.25;
+}

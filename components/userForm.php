@@ -29,7 +29,7 @@
                 <div class="form-row mb-1">
                     <div class="col-md-6">
                         <label for="userFormRole">Role</label>
-                        <select class="form-control" id="userFormRole">
+                        <select class="easyui-combobox" id="userFormRole" style="width: 100%">
                             <option value="CUSTOMER">Customer User</option>
                             <option value="VENDOR">Vendor User</option>
                             <option value="KEY_ACCOUNT_MANAGER">Key Account Manager</option>
@@ -40,7 +40,7 @@
                     <div class="col-md-6">
                         <div id="userFormVendorSelectorContainer" class="toggleSelector">
                             <label for="userFormVendorSelector">Vendor</label>
-                            <select class="form-control" id="userFormVendorSelector">
+                            <select class="easyui-combobox" id="userFormVendorSelector" style="width: 100%">
                                 <option value="v1">Vendor 1</option>
                                 <option value="v2">Vendor 2</option>
                                 <option value="v3">Vendor 3</option>
@@ -48,7 +48,7 @@
                         </div>
                         <div id="userFormCustomerSelectorContainer" class="toggleSelector">
                             <label for="userFormCustomerSelector">Customer</label>
-                            <select class="form-control" id="userFormCustomerSelector">
+                            <select class="easyui-combobox" id="userFormCustomerSelector" style="width: 100%">
                                 <option value="c1">Customer 1</option>
                                 <option value="c2">Customer 2</option>
                                 <option value="c3">Customer 3</option>
@@ -59,7 +59,7 @@
                 <div class="form-row mb-1">
                     <div class="col-md-6">
                         <label for="userFormLanguage">Language</label>
-                        <select class="form-control" id="userFormLanguage">
+                        <select class="easyui-combobox" id="userFormLanguage" style="width: 100%">
                             <option value="EN">English</option>
                             <option value="DE">German</option>
                         </select>

@@ -4,12 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="/assets/dist/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/dist/easyui/themes/material/easyui.css">
     <link rel="stylesheet" href="/assets/styles.css">
-    <script src="/assets/dist/jquery-3.2.1.slim.min.js"></script>
+
+    <script src="/assets/dist/easyui/jquery.min.js"></script>
     <script src="/assets/dist/popper.min.js"></script>
     <script src="/assets/dist/bootstrap/js/bootstrap.min.js"></script>
     <script src="/assets/dist/chartjs/Chart.bundle.js"></script>
     <script src="/assets/dist/chartjs/utils.js"></script>
+    <script src="/assets/dist/easyui/jquery.easyui.min.js"></script>
     <script src="/assets/scripts.js"></script>
 </head>
 <body>

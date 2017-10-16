@@ -18,7 +18,7 @@
                     </div>
                     <div class="col-md-6">
                         <label for="customerFormAccess">Access</label>
-                        <select class="form-control" id="customerFormAccess">
+                        <select class="easyui-combobox" id="customerFormAccess" style="width: 100%">
                             <option value="PREMIUM">Premium</option>
                             <option value="PRO">Pro</option>
                             <option value="BASIC">Basic</option>
